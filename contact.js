@@ -16,7 +16,6 @@ form.addEventListener('submit', function(event) {
     nameInput.focus();
     return;
   }
-
   // check if the phone number input is valid
   const phonePattern = /^\d{10}$/;
   if (!phonePattern.test(phoneInput.value)) {
